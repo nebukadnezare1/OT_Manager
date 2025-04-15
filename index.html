@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OT Manager - Téléchargement APK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .download-btn {
+      background-color: #00d084;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background-color: #02b473;
+    }
+
+    .qr-container {
+      margin-top: 30px;
+    }
+
+    .qr-container img {
+      border: 5px solid white;
+      border-radius: 10px;
+      max-width: 200px;
+      width: 100%;
+      height: auto;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📱 OT Manager</h1>
+  <p>Téléchargez la version Android officielle (APK)</p>
+
+  <a class="download-btn" href="https://github.com/nebukadnezare1/OT_Manager/releases/download/v1.0/OT_Manager_DM.apk" download>
+    📥 Télécharger l'application
+  </a>
+
+  <div class="qr-container">
+    <p>Ou scannez le QR code :</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://github.com/nebukadnezare1/OT_Manager/releases/download/v1.0/OT_Manager_DM.apk&size=200x200" alt="QR Code de téléchargement">
+  </div>
+
+  <footer>
+    © 2025 OT Manager | Tous droits réservés
+  </footer>
+
+</body>
+</html>
